@@ -1781,10 +1781,10 @@ MATH_FORMATTING: [list mathematical formatting improvements made, or "None" if n
               <CardContent>
                 <Tabs defaultValue="text" className="w-full">
                   <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4">
-                    <TabsTrigger value="text">Extracted Text</TabsTrigger>
-                    <TabsTrigger value="math">Math Equations</TabsTrigger>
-                    <TabsTrigger value="qac">QAC Fixes</TabsTrigger>
-                    <TabsTrigger value="images">Images ({currentExtraction?.detectedImages?.length || 0})</TabsTrigger>
+                    <TabsTrigger value="text" className="text-xs">Extracted Text</TabsTrigger>
+                    <TabsTrigger value="math" className="text-xs">Math Equations</TabsTrigger>
+                    <TabsTrigger value="qac" className="text-xs">QAC Fixes</TabsTrigger>
+                    <TabsTrigger value="images" className="text-xs">Images ({currentExtraction?.detectedImages?.length || 0})</TabsTrigger>
                   </TabsList>
 
                   <TabsContent value="text" className="mt-4">
