@@ -1420,7 +1420,7 @@ MATH_FORMATTING: [list mathematical formatting improvements made, or "None" if n
           {librariesLoaded && !isLoadingOCR && (
             <div className="flex items-center justify-center gap-2 text-sm text-green-600">
               <Sparkles className="h-4 w-4" />
-              Multi-AI OCR ready with Google Gemini + Mistral integration!
+           AI OCR ready with Google Gemini integration!
             </div>
           )}
         </div>
