@@ -1780,7 +1780,7 @@ MATH_FORMATTING: [list mathematical formatting improvements made, or "None" if n
               </CardHeader>
               <CardContent>
                 <Tabs defaultValue="text" className="w-full">
-                  <TabsList className="grid w-full grid-cols-4">
+                  <TabsList className="grid w-full grid-cols-2 sm:grid-cols-4">
                     <TabsTrigger value="text">Extracted Text</TabsTrigger>
                     <TabsTrigger value="math">Math Equations</TabsTrigger>
                     <TabsTrigger value="qac">QAC Fixes</TabsTrigger>
