@@ -893,7 +893,7 @@ ARTISTIC_STYLE: [recommended artistic approach]`,
                       text: `You are an expert OCR system. Extract ALL visible text from this ${fileType === "pdf" ? "PDF page" : "image"} with maximum accuracy.
 
 CRITICAL INSTRUCTIONS:
-1. Extract EVERY piece of text visible in the image, no matter how small. if the texts are in a table give the extracted texts in table like the image or pdf.
+1. Extract EVERY piece of text visible in the image, no matter how small. if the texts are in a table give the extracted texts in like google sheet table like the image or pdf.
 2. Maintain exact formatting, spacing, and line breaks as they appear
 3. Support multiple languages: ${selectedLanguages.includes("eng") ? "English" : ""} ${selectedLanguages.includes("ben") ? "Bengali/Bangla" : ""}
 4. Identify mathematical equations, formulas, symbols, and special characters
